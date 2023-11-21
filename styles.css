@@ -30,6 +30,7 @@
   }
 
   .h1{
+    text-align: center;
     color: white;
   }
 
@@ -38,9 +39,7 @@
   }
 
  .summary{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     color:white;
     padding: 10px;
     max-width: 75ch
@@ -95,4 +94,22 @@ details:not([open]) .summary::after {
     content: '+';
     float: right;
     margin-left: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+    /* Estilos para pantallas medianas (dispositivos móviles) */
+    .acordeon {
+        padding: 10px; /* Ajuste del padding */
+    }
+
+    .h1 {
+        font-size: 20px; /* Reducción del tamaño del título */
+        margin-bottom: 15px; /* Reducción del margen inferior del título */
+    }
+
+    .details {
+        padding: 8px; /* Ajuste del padding de los detalles */
+        max-width: 90%; /* Ancho máximo para pantallas pequeñas */
+    }
 }
