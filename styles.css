@@ -124,5 +124,13 @@ details:not([open]) .summary::after {
     .details {
         padding: 8px; /* Ajuste del padding de los detalles */
         max-width: 90%; /* Ancho máximo para pantallas pequeñas */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .summary {
+        text-align: center;
+        font-size: 15px;
     }
 }
