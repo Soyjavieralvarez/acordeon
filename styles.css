@@ -50,6 +50,10 @@
     font-weight: 700;
  }
 
+ .summary:hover {
+    background-color: #242424;
+ }
+
  .p{
     background-color: #242424;
     color: white;
